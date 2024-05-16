@@ -1,1 +1,3 @@
-<img src="https://github.com/piyuminadee/JavaScript-Basic-Projects/blob/master/amazon.png?raw=true">
+## Overview
+
+* This is a Simple Clone of Amazon Website.
