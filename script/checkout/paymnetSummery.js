@@ -29,7 +29,7 @@ Order Summary
 </div>
 
 <div class="payment-summary-row">
-<div>Items (3):</div>
+<div ><p class="js-count-item"></p></div>
 <div class="payment-summary-money">$
 ${formatCurrency(productPriceCents)}
 </div>

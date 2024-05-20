@@ -60,9 +60,20 @@ function saveToCart(){
     }
     );
     //checkoutCount(cartQuantity);
+    
     saveToCart();
   }
 
+  export function countItem(){
+    let cartQuantity=0;
+    cart.forEach((cartItem)=>{
+      cartQuantity += cartItem.quantity;
+      document.querySelector('.js-count-item').innerHTML = `Items (${cartQuantity}):`;
+    }
+    );
+    //checkoutCount(cartQuantity);
+    saveToCart();
+  }
 
   export function updateDeliveryOption(productId, deliveryOptionId){
     let machingItem;
