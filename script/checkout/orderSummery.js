@@ -129,6 +129,7 @@ export function renderSummery(){
         //console.log(container);
         container.remove();
         renderSummery();
+        renderPaymentSummery();
       });
       checkoutCount();
     });
