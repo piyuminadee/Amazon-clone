@@ -7,9 +7,6 @@
 - [Setup and Installation](#setup-and-installation)
 - [Usage](#usage)
 - [Project Structure](#project-structure)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
 
 ## Introduction
 This project is an Amazon clone created to transition from beginner to pro in JavaScript. It mimics the core functionalities of Amazon's e-commerce platform using only frontend technologies. Users can browse products, add them to a cart, and view the cart details, all without backend integration.
@@ -33,8 +30,8 @@ This project is an Amazon clone created to transition from beginner to pro in Ja
 ### Installation
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/yourusername/amazon-clone.git
-    cd amazon-clone
+    git clone https://github.com/piyuminadee/Amazon-clone.git
+    cd Amazon-clone
     ```
 
 2. **Open the project:**
@@ -53,11 +50,24 @@ That's it! The project runs entirely in the browser, so no server setup is requi
 ```plaintext
 amazon-clone/
 ├── css/                 # CSS styles
-│   ├── styles.css
+│   ├── amazon.css
+    ├── checkout.css
+    ├── order.css
 ├── js/                  # JavaScript files
-│   ├── app.js
-│   ├── cart.js
-│   ├── products.js
+│   ├── amazon.js
+│   ├── checkout.js
+│   ├── checkout/
+         ├── orderSummery.js
+         ├── paymentSummery.js
+    ├── utils/
+         ├── money.js
+├── data/
+     ├── cart.js
+│    ├── product.js
+│    ├── deliveryOptions.js
+
 ├── images/              # Product images
-├── index.html           # Main HTML file
+├── amazon.html          # Main HTML file
+├── checkout.html
+├── order.html  
 └── README.md            # Project documentation
